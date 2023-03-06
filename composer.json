@@ -31,7 +31,7 @@
     }
   ],
   "require": {
-    "php": ">=7.4",
+    "php": "8.0",
     "composer/installers": "^2.2",
     "vlucas/phpdotenv": "^5.5",
     "oscarotero/env": "^2.1",
@@ -71,7 +71,6 @@
       "php -r \"copy('.env.example', '.env');\""
     ],
     "post-update-cmd": [
-      "rm -rf public/bootstrap",
       "cp -R vendor/twbs/bootstrap/dist web/assets/bootstrap",
       "cp -R vendor/components/jquery web/assets/jquery"
     ],
