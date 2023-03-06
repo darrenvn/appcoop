@@ -28,3 +28,4 @@ wp-cli.local.yml
 
 /.idea
 web/assets/bootstrap/dist
+web/assets/jquery
